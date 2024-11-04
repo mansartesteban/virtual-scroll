@@ -9,7 +9,7 @@
 <script setup>
 import useVirtualScroll from "./useVirtualScroll"
 import { findAllIndex } from "./utils"
-import { useSlots, ref, computed } from "vue"
+import { useSlots, ref, computed, onMounted } from "vue"
 
 const slots = useSlots()
 
@@ -61,8 +61,6 @@ const populateEmptyArea = async (lastCumulativeHeight, containerHeight) => {
 }
 
 onMounted(() => {
-
-
 
     let lastCumulativeHeight = 0
     let containerHeight = container.value.offsetHeight
