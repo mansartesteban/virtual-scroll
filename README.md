@@ -24,7 +24,7 @@ Use it in a component :
 ```vue
 <template>
   <VirtualScroll>
-    <div v-for="item in items" v-html=item"></div>
+    <div v-for="item in items" v-html="item"></div>
   </VirtualScroll>
 </template>
 
