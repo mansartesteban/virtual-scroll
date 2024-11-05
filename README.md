@@ -15,7 +15,9 @@ I'm currently working on a workaround and will keep this readme up-to-date
 
 Install it on your project :
 
-`npm install @mansartesteban/vue-virtual-scroll`
+```
+npm install @mansartesteban/vue-virtual-scroll
+```
 
 Use it in a component :
 
