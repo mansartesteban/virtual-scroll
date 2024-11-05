@@ -9,7 +9,7 @@ For now (05 Nov 2024), two known bugs prevent to use the component safely :
 - The rendering speed of item could leads to error in console when scrolling too fast when they have to show the first time 
 - The last item of the list is cropped by some pixels due to the calculation which is an estimation to the total height 
 
-I'm currently working on a workaround and will keep this readme up-to-date
+I'm currently working on a workaround and will keep this readme up-to-date. Any contribution is welcomed.
 
 ## Usage 
 
